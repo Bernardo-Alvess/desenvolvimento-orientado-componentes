@@ -1,0 +1,18 @@
+div {
+    max-height: fit-content;
+    max-width: fit-content;
+    background-color: #b1b1b1;
+    padding: 10px;
+    border-radius: 16px;
+}
+
+img {
+    max-height: 300px;
+    max-width: 300px;
+    border-radius: 25px;
+}
+
+img:hover {
+    transform: rotateY(180deg);
+    transition: 1s;
+}
