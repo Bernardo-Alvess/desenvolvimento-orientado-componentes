@@ -1,10 +1,36 @@
+import { useState } from 'react';
 import '../assets/css/profile.css';
-import person from '../assets/thispersondoesnotexist.jpeg';
+import { InfinitySpin } from 'react-loader-spinner';
 
-function Profile() {
+interface IImageProps {
+	image: string;
+}
+
+function Profile({ image }: IImageProps) {
+	const [isLoading, setIsLoading] = useState(true);
+
+	const handleImageLoaded = () => {
+		setIsLoading(false);
+	};
 	return (
 		<div>
-			<img src={person} alt="person" />
+			{isLoading && (
+				<div className="teste">
+					<InfinitySpin
+						visible={true}
+						width="200"
+						color="#141414"
+						ariaLabel="infinity-spin-loading"
+					/>
+				</div>
+			)}
+			<img
+				className="teste"
+				src={image}
+				alt="person"
+				onLoad={handleImageLoaded}
+				style={{ display: isLoading ? 'none' : 'block' }}
+			/>
 		</div>
 	);
 }

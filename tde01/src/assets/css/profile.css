@@ -1,18 +1,13 @@
 div {
-    max-height: fit-content;
+    max-height: max-content;
     max-width: fit-content;
     background-color: #b1b1b1;
     padding: 10px;
     border-radius: 16px;
 }
 
-img {
-    max-height: 300px;
-    max-width: 300px;
+.teste {
+    max-height: 200px;
+    max-width: 200px;
     border-radius: 25px;
-}
-
-img:hover {
-    transform: rotateY(180deg);
-    transition: 1s;
 }

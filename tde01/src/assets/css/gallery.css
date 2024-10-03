@@ -1,10 +1,9 @@
 #wrapper {
     width: fit-content;
-    height: 400px;
+    height: fit-content;
     display: flex;
     flex-direction: column;
     color: black;
-    margin: auto;
 }
 
 #container {
