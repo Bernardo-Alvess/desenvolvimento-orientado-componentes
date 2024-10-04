@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { Button } from './Button';
 
 interface IArtwork {
 	name: string;
@@ -22,26 +23,23 @@ const Infocard = ({ data }: IInfocardProps) => {
 		);
 	};
 
+	const handlePreviousPage = () => {
+		setPage((previousPage) =>
+			previousPage <= 0 ? data.length : previousPage - 1
+		);
+	};
+
 	return (
 		<div className="text-white flex flex-col gap-3 w-[400px] bg-zinc-900 p-5 rounded-lg">
-			<button
-				className="px-4 rounded-lg bg-blue-800 w-fit"
-				onClick={handleNextPage}
-			>
-				Next
-			</button>
+			<Button fn={handleNextPage} text="Next" />
+			<Button fn={handlePreviousPage} text="Previous" />
 			<p>
 				{data[page].name + 1} by {data[page + 1].artist}
 			</p>
 			<p>
 				( <strong>{page}</strong> of <strong>{data.length}</strong> )
 			</p>
-			<button
-				className="px-4 rounded-lg bg-blue-800 w-fit"
-				onClick={() => setDetails(!details)}
-			>
-				Show Details
-			</button>
+			<Button fn={() => setDetails(!details)} text="Show Details" />
 			{details ? (
 				<div>
 					<img
