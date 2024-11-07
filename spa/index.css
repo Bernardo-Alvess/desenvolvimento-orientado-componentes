@@ -1,0 +1,55 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Helvetica';
+}
+
+.hidden {
+    display: none;
+}
+
+header {
+    background-color: grey;
+    height: 5vh;
+    width: 100vw;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    gap: 10px;
+    height: auto;
+    width: auto;
+}
+
+nav > a {
+    text-decoration: none;
+    color: white;
+    font-size: normal;
+    font-weight: bold;
+}
+
+table, th, td {
+    border: 1px solid black; border-collapse: collapse; padding: 8px;
+}
+
+main {
+    background-color: rgb(34, 33, 33);
+    height: 95vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+main section {
+    background-color: black;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 2px
+}
