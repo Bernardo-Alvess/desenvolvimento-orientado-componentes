@@ -71,22 +71,22 @@ const ProductDetails = () => {
 									<img src="/images/date.svg" />
 									<span className="font-bold">
 										Data de lançamento:
-									</span>{' '}
-									-{' '}
+									</span>
+									{game?.release_date}
 								</p>
 								<p className="flex gap-2">
 									<img src={'/images/laptop.svg'} />
 									<span className="font-bold">
 										Desenvolvedora:
 									</span>{' '}
-									-{' '}
+									{game?.developer}
 								</p>
 								<p className="flex gap-2">
 									<img src={'/images/company.svg'} />
 									<span className="font-bold">
 										Publicadora:
 									</span>{' '}
-									-{' '}
+									{game?.publisher}
 								</p>
 							</div>
 						</div>
