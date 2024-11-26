@@ -8,12 +8,12 @@ const Header = () => {
 			<ul className="flex items-center justify-between w-full text-2xl">
 				<li>
 					<Link href={'/'}>
-						<Image
-							src={'icons/mago-games.svg'}
+						<img
+							src={'/images/mago-games.svg'}
 							alt={''}
 							width={75}
 							height={86}
-						></Image>
+						></img>
 					</Link>
 				</li>
 				<li>

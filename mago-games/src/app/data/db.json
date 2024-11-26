@@ -7,7 +7,20 @@
             "price": 60,
             "discount": 15,
             "featured": true,
-            "embed": "pFAknD_9U7c"
+            "embed": "pFAknD_9U7c",
+            "publisher": "Team Cherry",
+            "developer": "Team Cherry",
+            "release_date": "2024-06-01",
+            "categories": [
+                "Metroidvania",
+                "Ação",
+                "Exploração"
+            ],
+            "game_mode": [
+                "Um jogador"
+            ],
+            "rating": "Livre",
+            "description": "Hollow Knight: Silksong é a aguardada sequência de Hollow Knight, onde você controla Hornet em uma nova jornada em um reino desconhecido, enfrentando desafios e descobrindo segredos."
         },
         {
             "id": 2,
@@ -16,7 +29,21 @@
             "price": 25,
             "discount": 10,
             "featured": true,
-            "embed": "G9Dgrn2Kb-w"
+            "embed": "G9Dgrn2Kb-w",
+            "publisher": "Re-Logic",
+            "developer": "Re-Logic",
+            "release_date": "2011-05-16",
+            "categories": [
+                "Sandbox",
+                "Aventura",
+                "Sobrevivência"
+            ],
+            "game_mode": [
+                "Um jogador",
+                "Coop"
+            ],
+            "rating": "Livre",
+            "description": "Terraria é um jogo sandbox onde você pode minerar, construir e lutar em um mundo em constante evolução, cheio de inimigos, tesouros e aventuras."
         },
         {
             "id": 3,
@@ -25,7 +52,21 @@
             "price": 120,
             "discount": 20,
             "featured": true,
-            "embed": "eaW0tYpxyp0"
+            "embed": "eaW0tYpxyp0",
+            "publisher": "Rockstar Games",
+            "developer": "Rockstar Games",
+            "release_date": "2018-10-26",
+            "categories": [
+                "Ação",
+                "Aventura",
+                "Mundo Aberto"
+            ],
+            "game_mode": [
+                "Um jogador",
+                "Multijogador"
+            ],
+            "rating": "18+",
+            "description": "Red Dead Redemption 2 é um épico do Velho Oeste onde você vive a história de Arthur Morgan e a gangue Van der Linde enquanto luta por sobrevivência."
         },
         {
             "id": 4,
@@ -34,7 +75,20 @@
             "price": 0,
             "discount": 0,
             "featured": true,
-            "embed": "edYCtaNueQY"
+            "embed": "edYCtaNueQY",
+            "publisher": "Valve",
+            "developer": "Valve",
+            "release_date": "2012-08-21",
+            "categories": [
+                "FPS",
+                "Competitivo",
+                "Multijogador"
+            ],
+            "game_mode": [
+                "Multijogador"
+            ],
+            "rating": "16+",
+            "description": "CS:GO é um jogo de tiro em primeira pessoa competitivo que define o gênero, com modos como casual, ranqueado e batalha real."
         },
         {
             "id": 5,
@@ -43,7 +97,20 @@
             "price": 50,
             "discount": 30,
             "featured": true,
-            "embed": "c0i88t0Kacs"
+            "embed": "c0i88t0Kacs",
+            "publisher": "CD Projekt Red",
+            "developer": "CD Projekt Red",
+            "release_date": "2015-05-18",
+            "categories": [
+                "RPG",
+                "Ação",
+                "Mundo Aberto"
+            ],
+            "game_mode": [
+                "Um jogador"
+            ],
+            "rating": "18+",
+            "description": "The Witcher 3: Wild Hunt é um RPG de mundo aberto onde você assume o papel de Geralt, um caçador de monstros, em busca de sua filha adotiva."
         },
         {
             "id": 6,
@@ -52,7 +119,21 @@
             "price": 80,
             "discount": 25,
             "featured": true,
-            "embed": "gfYZ3crMII8"
+            "embed": "gfYZ3crMII8",
+            "publisher": "Facepunch Studios",
+            "developer": "Facepunch Studios",
+            "release_date": "2018-02-08",
+            "categories": [
+                "Sobrevivência",
+                "Ação",
+                "Multijogador"
+            ],
+            "game_mode": [
+                "Multijogador",
+                "MMO"
+            ],
+            "rating": "18+",
+            "description": "Rust é um jogo de sobrevivência multiplayer online onde você deve construir, caçar e lutar para sobreviver em um ambiente hostil."
         },
         {
             "id": 7,
@@ -60,7 +141,20 @@
             "name": "Cyberpunk 2077",
             "price": 180,
             "discount": 50,
-            "embed": "FknHjl7eQ6o"
+            "embed": "FknHjl7eQ6o",
+            "publisher": "CD Projekt Red",
+            "developer": "CD Projekt Red",
+            "release_date": "2020-12-10",
+            "categories": [
+                "RPG",
+                "Futurista",
+                "Ação"
+            ],
+            "game_mode": [
+                "Um jogador"
+            ],
+            "rating": "18+",
+            "description": "Cyberpunk 2077 é um RPG futurista de mundo aberto onde você explora Night City, uma metrópole repleta de tecnologia e caos."
         },
         {
             "id": 8,
@@ -68,7 +162,21 @@
             "name": "Stardew Valley",
             "price": 30,
             "discount": 5,
-            "embed": "ot7uXNQskhs"
+            "embed": "ot7uXNQskhs",
+            "publisher": "ConcernedApe",
+            "developer": "ConcernedApe",
+            "release_date": "2016-02-26",
+            "categories": [
+                "Farming",
+                "RPG",
+                "Simulação"
+            ],
+            "game_mode": [
+                "Um jogador",
+                "Coop"
+            ],
+            "rating": "Livre",
+            "description": "Stardew Valley é um simulador de fazenda relaxante onde você cultiva, pesca, minera e faz amizades em uma vila acolhedora."
         },
         {
             "id": 9,
@@ -76,7 +184,21 @@
             "name": "Rainbow Six Siege",
             "price": 45,
             "discount": 15,
-            "embed": "6wlvYh0h63k"
+            "embed": "6wlvYh0h63k",
+            "publisher": "Ubisoft",
+            "developer": "Ubisoft Montreal",
+            "release_date": "2015-12-01",
+            "categories": [
+                "FPS",
+                "Tático",
+                "Multijogador"
+            ],
+            "game_mode": [
+                "Multijogador",
+                "Coop"
+            ],
+            "rating": "18+",
+            "description": "Rainbow Six Siege é um FPS tático baseado em equipes que coloca estratégia e habilidade no centro das batalhas."
         },
         {
             "id": 10,
@@ -84,22 +206,21 @@
             "name": "Dark Souls III",
             "price": 90,
             "discount": 35,
-            "embed": "cWBwFhUv1-8"
-        },
-        {
-            "id": 11,
-            "url": "https://cdn.akamai.steamstatic.com/steam/apps/374320/header.jpg?t=1675297587",
-            "name": "Dark Souls III",
-            "price": 90,
-            "discount": 35,
-            "embed": "cWBwFhUv1-8"
-        },
-        {
-            "id": 12,
-            "url": "https://cdn.akamai.steamstatic.com/steam/apps/374320/header.jpg?t=1675297587",
-            "name": "Dark Souls III",
-            "price": 90,
-            "embed": "cWBwFhUv1-8"
+            "embed": "cWBwFhUv1-8",
+            "publisher": "Bandai Namco Entertainment",
+            "developer": "FromSoftware",
+            "release_date": "2016-04-12",
+            "categories": [
+                "RPG",
+                "Ação",
+                "Desafiante"
+            ],
+            "game_mode": [
+                "Um jogador",
+                "Coop"
+            ],
+            "rating": "16+",
+            "description": "Dark Souls III é um RPG de ação conhecido por sua dificuldade extrema, combates épicos e uma narrativa sombria."
         }
     ]
 }
