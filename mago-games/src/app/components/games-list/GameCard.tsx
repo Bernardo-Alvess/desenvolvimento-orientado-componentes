@@ -1,15 +1,20 @@
+import Link from 'next/link';
 import React from 'react';
 
 interface Props {
+	id: number;
 	imageUrl: string;
 	name: string;
 	discount?: number;
 	price: number;
 }
 
-const GameCard = ({ imageUrl, name, discount, price }: Props) => {
+const GameCard = ({ imageUrl, name, discount, price, id }: Props) => {
 	return (
-		<div className="w-72 h-80 bg-cardBackground rounded-xl flex flex-col gap-2">
+		<Link
+			href={`/products/${id}`}
+			className="w-72 h-80 bg-cardBackground rounded-xl flex flex-col gap-2"
+		>
 			<img
 				src={imageUrl}
 				alt={`${name} cover`}
@@ -34,7 +39,7 @@ const GameCard = ({ imageUrl, name, discount, price }: Props) => {
 					</div>
 				</div>
 			</div>
-		</div>
+		</Link>
 	);
 };
 

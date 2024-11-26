@@ -12,10 +12,11 @@ interface Props {
 const GameContainer = ({ icon, name, limit }: Props) => {
 	const { getGames } = useGames();
 	const [data, setData] = useState<Game[] | undefined>();
+	998;
 
 	useEffect(() => {
 		const fetchGames = async () => {
-			const games = await getGames();
+			const games = await getGames(10);
 			console.log(games);
 			setData(games);
 		};
@@ -35,6 +36,8 @@ const GameContainer = ({ icon, name, limit }: Props) => {
 				<div className="flex flex-wrap flex-row gap-8 items-center justify-center">
 					{data?.map((game) => (
 						<GameCard
+							key={game.id}
+							id={game.id}
 							imageUrl={game.url}
 							name={game.name}
 							price={game.price}

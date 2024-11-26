@@ -5,4 +5,5 @@ export interface Game {
     price: number,
     discount: number,
     featured: boolean
+    embed: string;
 }

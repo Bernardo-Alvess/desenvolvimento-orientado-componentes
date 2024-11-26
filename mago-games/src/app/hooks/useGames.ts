@@ -2,9 +2,9 @@ import { API_URL } from "../configs/default-api"
 
 export default function useGames() {
 
-	async function getGames() {
+	async function getGames(limit?: number) {
 		try {
-			const response = await fetch(`http://localhost:3001/games`)
+			const response = await fetch(`http://localhost:3001/games?_limit=${limit}`)
 			console.log(response)
 
 			if (response.ok) {
@@ -13,6 +13,23 @@ export default function useGames() {
 				return data;
 			}
 			console.error('Erro ao retornar dados sobre jogos')
+		} catch (e) {
+			console.error(e)
+		}
+	}
+
+	async function getGameById(id: string) {
+		console.log(id)
+
+		try {
+			const response = await fetch(`http://localhost:3001/games/${id}`)
+
+			if (response.ok) {
+				const data = await response.json()
+				return data
+			}
+
+			console.log('Erro ao retornar dados sobre o jogo')
 		} catch (e) {
 			console.error(e)
 		}
@@ -35,6 +52,8 @@ export default function useGames() {
 
 	return {
 		getGames,
-		getFeaturedGames
+		getFeaturedGames,
+		getGameById
 	}
+
 }
