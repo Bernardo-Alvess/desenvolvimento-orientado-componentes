@@ -15,6 +15,7 @@ export default {
         secondary: '#C576EBE5',
         chevron: '#412E5B',
         tertiary: '#7F52A3',
+        cardBackground: '#D7B2FD'
       },
     },
   },

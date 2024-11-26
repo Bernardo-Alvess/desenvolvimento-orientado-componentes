@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import { Kadwa } from 'next/font/google';
 import './globals.css';
 import Header from './components/Header';
+import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
 
 const kadwa = Kadwa({
 	weight: ['400', '700'],
