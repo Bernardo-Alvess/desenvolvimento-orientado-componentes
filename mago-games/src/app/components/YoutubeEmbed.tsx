@@ -9,12 +9,13 @@ const YoutubeEmbed = ({ embedId }: Props) => (
 	<div className="video-responsive">
 		<iframe
 			height={461}
+			width={798}
 			src={`https://www.youtube.com/embed/${embedId}`}
 			frameBorder="0"
 			allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
 			allowFullScreen
 			title="Embedded youtube"
-			className="w-10/12"
+			className="border border-primary rounded-lg"
 		/>
 	</div>
 );
