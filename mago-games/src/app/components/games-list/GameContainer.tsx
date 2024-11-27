@@ -1,22 +1,25 @@
+'use client';
+
 import useGames from '@/app/hooks/useGames';
 import { Game } from '@/app/types/Game.type';
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import GameCard from './GameCard';
 
 interface Props {
 	icon: string;
 	name: string;
-	limit: number;
+	limit: number | null;
+	showActions?: boolean;
 }
 
-const GameContainer = ({ icon, name, limit }: Props) => {
+const GameContainer = ({ icon, name, limit, showActions }: Props) => {
 	const { getGames } = useGames();
 	const [data, setData] = useState<Game[] | undefined>();
 	998;
 
 	useEffect(() => {
 		const fetchGames = async () => {
-			const games = await getGames(10);
+			const games = await getGames(limit);
 			console.log(games);
 			setData(games);
 		};
@@ -42,6 +45,7 @@ const GameContainer = ({ icon, name, limit }: Props) => {
 							name={game.name}
 							price={game.price}
 							discount={game.discount}
+							showActions={showActions}
 						/>
 					))}
 				</div>

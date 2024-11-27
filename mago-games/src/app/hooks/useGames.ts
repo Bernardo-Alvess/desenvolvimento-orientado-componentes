@@ -1,8 +1,6 @@
-import { API_URL } from "../configs/default-api"
-
 export default function useGames() {
 
-	async function getGames(limit?: number) {
+	async function getGames(limit?: number | null) {
 		try {
 			const response = await fetch(`http://localhost:3001/games?_limit=${limit}`)
 			console.log(response)

@@ -20,7 +20,7 @@
                 "Um jogador"
             ],
             "rating": "Livre",
-            "description": "Hollow Knight: Silksong é a aguardada sequência de Hollow Knight, onde você controla Hornet em uma nova jornada em um reino desconhecido, enfrentando desafios e descobrindo segredos."
+            "description": "Hollow Knight: Silksong é a aguardada sequência do aclamado jogo indie Hollow Knight. No papel de Hornet, uma princesa-protetora, você embarcará em uma jornada épica para desvendar os mistérios de um reino desconhecido. Explore ambientes vastos e deslumbrantes, enfrente criaturas ferozes e use uma variedade de ferramentas e habilidades para superar desafios únicos. O jogo apresenta um mundo ricamente detalhado, novos aliados e inimigos, além de uma trilha sonora hipnotizante. Com uma narrativa envolvente e mecânicas de combate aprimoradas, Silksong promete uma experiência inesquecível para fãs de Metroidvania e novatos na série."
         },
         {
             "id": 2,
@@ -43,7 +43,7 @@
                 "Coop"
             ],
             "rating": "Livre",
-            "description": "Terraria é um jogo sandbox onde você pode minerar, construir e lutar em um mundo em constante evolução, cheio de inimigos, tesouros e aventuras."
+            "description": "Terraria é um jogo de sandbox incrivelmente variado onde o limite é sua imaginação. Mergulhe em um mundo gerado proceduralmente e personalize sua aventura, desde explorar cavernas profundas e encontrar tesouros ocultos até enfrentar chefes desafiadores e construir estruturas impressionantes. Com um sistema de crafting vasto, biomas únicos e desafios emocionantes, Terraria oferece uma experiência que se adapta a qualquer estilo de jogador, seja você um construtor criativo, um aventureiro corajoso ou um explorador curioso. Aproveite modos single-player ou coop para explorar este mundo fascinante com amigos."
         },
         {
             "id": 3,
@@ -66,7 +66,7 @@
                 "Multijogador"
             ],
             "rating": "18+",
-            "description": "Red Dead Redemption 2 é um épico do Velho Oeste onde você vive a história de Arthur Morgan e a gangue Van der Linde enquanto luta por sobrevivência."
+            "description": "Red Dead Redemption 2 é uma obra-prima narrativa que transporta os jogadores para o coração do Velho Oeste americano. No papel de Arthur Morgan, um membro leal da gangue Van der Linde, você experimentará uma história complexa de honra, lealdade e sobrevivência em um mundo que está mudando rapidamente. Explore um vasto e detalhado mundo aberto com uma vida selvagem diversificada, cidades vibrantes e uma natureza deslumbrante. Com mecânicas de jogo imersivas, um sistema de escolhas que afeta a narrativa e um modo multiplayer expansivo, RDR2 oferece uma experiência inesquecível tanto em sua campanha quanto em seu mundo online."
         },
         {
             "id": 4,
@@ -88,7 +88,7 @@
                 "Multijogador"
             ],
             "rating": "16+",
-            "description": "CS:GO é um jogo de tiro em primeira pessoa competitivo que define o gênero, com modos como casual, ranqueado e batalha real."
+            "description": "Counter-Strike: Global Offensive (CS:GO) é um marco no gênero de jogos de tiro em primeira pessoa. Este jogo competitivo coloca equipes de terroristas contra contra-terroristas em uma luta por objetivos estratégicos. Com diversos modos de jogo, incluindo casual, ranqueado e battle royale, CS:GO atrai jogadores de todos os níveis de habilidade. Suas atualizações constantes e uma vibrante cena de eSports fazem dele uma escolha popular entre fãs de FPS, enquanto sua jogabilidade focada em trabalho em equipe e habilidade oferece desafios emocionantes."
         },
         {
             "id": 5,
@@ -110,117 +110,119 @@
                 "Um jogador"
             ],
             "rating": "18+",
-            "description": "The Witcher 3: Wild Hunt é um RPG de mundo aberto onde você assume o papel de Geralt, um caçador de monstros, em busca de sua filha adotiva."
+            "description": "The Witcher 3: Wild Hunt é um RPG épico que redefine o gênero. Assuma o papel de Geralt de Rívia, um caçador de monstros lendário em busca de sua filha adotiva, Ciri, enquanto o mundo é ameaçado por uma força sombria conhecida como a Caçada Selvagem. Com um mundo aberto vasto e repleto de vida, personagens memoráveis, quests envolventes e decisões que impactam profundamente a narrativa, The Witcher 3 oferece centenas de horas de exploração, combate emocionante e histórias cativantes que continuam a cativar jogadores ao redor do mundo."
         },
         {
             "id": 6,
-            "url": "https://cdn.akamai.steamstatic.com/steam/apps/252490/header.jpg?t=1693507337",
-            "name": "Rust",
-            "price": 80,
-            "discount": 25,
-            "featured": true,
-            "embed": "gfYZ3crMII8",
-            "publisher": "Facepunch Studios",
-            "developer": "Facepunch Studios",
-            "release_date": "2018-02-08",
-            "categories": [
-                "Sobrevivência",
-                "Ação",
-                "Multijogador"
-            ],
-            "game_mode": [
-                "Multijogador",
-                "MMO"
-            ],
-            "rating": "18+",
-            "description": "Rust é um jogo de sobrevivência multiplayer online onde você deve construir, caçar e lutar para sobreviver em um ambiente hostil."
-        },
-        {
-            "id": 7,
-            "url": "https://cdn.akamai.steamstatic.com/steam/apps/1091500/header.jpg?t=1695237068",
-            "name": "Cyberpunk 2077",
-            "price": 180,
+            "url": "https://cdn.akamai.steamstatic.com/steam/apps/620/header.jpg?t=1601333735",
+            "name": "Portal 2",
+            "price": 20,
             "discount": 50,
-            "embed": "FknHjl7eQ6o",
-            "publisher": "CD Projekt Red",
-            "developer": "CD Projekt Red",
-            "release_date": "2020-12-10",
+            "featured": true,
+            "embed": "tax4eEGa04k",
+            "publisher": "Valve",
+            "developer": "Valve",
+            "release_date": "2011-04-19",
             "categories": [
-                "RPG",
-                "Futurista",
-                "Ação"
-            ],
-            "game_mode": [
-                "Um jogador"
-            ],
-            "rating": "18+",
-            "description": "Cyberpunk 2077 é um RPG futurista de mundo aberto onde você explora Night City, uma metrópole repleta de tecnologia e caos."
-        },
-        {
-            "id": 8,
-            "url": "https://cdn.akamai.steamstatic.com/steam/apps/413150/header.jpg?t=1673394086",
-            "name": "Stardew Valley",
-            "price": 30,
-            "discount": 5,
-            "embed": "ot7uXNQskhs",
-            "publisher": "ConcernedApe",
-            "developer": "ConcernedApe",
-            "release_date": "2016-02-26",
-            "categories": [
-                "Farming",
-                "RPG",
-                "Simulação"
+                "Puzzle",
+                "Aventura",
+                "Coop"
             ],
             "game_mode": [
                 "Um jogador",
                 "Coop"
             ],
             "rating": "Livre",
-            "description": "Stardew Valley é um simulador de fazenda relaxante onde você cultiva, pesca, minera e faz amizades em uma vila acolhedora."
+            "description": "Portal 2 é uma obra-prima do design de quebra-cabeças, levando os jogadores a explorar instalações de teste da Aperture Science com o uso de um dispositivo de portais único. Resolva desafios criativos e descubra uma narrativa envolvente com personagens inesquecíveis, incluindo o retorno de GLaDOS. Com modos single-player e cooperativo, Portal 2 oferece uma experiência rica em humor, inteligência e inovação que redefine o gênero."
+        },
+        {
+            "id": 7,
+            "url": "https://cdn.akamai.steamstatic.com/steam/apps/1091500/header.jpg?t=1689449607",
+            "name": "Cyberpunk 2077",
+            "price": 199,
+            "discount": 40,
+            "featured": false,
+            "embed": "qIcTM8WXFjk",
+            "publisher": "CD Projekt Red",
+            "developer": "CD Projekt Red",
+            "release_date": "2020-12-10",
+            "categories": [
+                "RPG",
+                "Mundo Aberto",
+                "Futurista"
+            ],
+            "game_mode": [
+                "Um jogador"
+            ],
+            "rating": "18+",
+            "description": "Cyberpunk 2077 é um RPG de mundo aberto ambientado em Night City, uma metrópole vibrante e perigosa. Assuma o papel de V, um mercenário em busca de um implante único que pode conceder a imortalidade. Personalize seu personagem, explore a cidade futurista e tome decisões que moldarão a narrativa. Com gráficos impressionantes, jogabilidade profunda e uma rica construção de mundo, Cyberpunk 2077 oferece uma experiência imersiva no universo cyberpunk."
+        },
+        {
+            "id": 8,
+            "url": "https://cdn.akamai.steamstatic.com/steam/apps/379430/header.jpg?t=1688982457",
+            "name": "Kingdom Come: Deliverance",
+            "price": 80,
+            "discount": 20,
+            "featured": false,
+            "embed": "vrqO_SgoBcg",
+            "publisher": "Warhorse Studios",
+            "developer": "Warhorse Studios",
+            "release_date": "2018-02-13",
+            "categories": [
+                "RPG",
+                "Histórico",
+                "Mundo Aberto"
+            ],
+            "game_mode": [
+                "Um jogador"
+            ],
+            "rating": "16+",
+            "description": "Kingdom Come: Deliverance é um RPG medieval que prioriza o realismo histórico e a narrativa imersiva. Jogue como Henry, um jovem ferreiro, enquanto busca vingança pela destruição de sua vila e descobre seu papel em eventos históricos. Com combates desafiadores, um mundo aberto detalhado e escolhas que afetam a história, este é um jogo que coloca você no coração da Boêmia medieval."
         },
         {
             "id": 9,
-            "url": "https://cdn.akamai.steamstatic.com/steam/apps/359550/header.jpg?t=1695237072",
-            "name": "Rainbow Six Siege",
-            "price": 45,
-            "discount": 15,
-            "embed": "6wlvYh0h63k",
-            "publisher": "Ubisoft",
-            "developer": "Ubisoft Montreal",
-            "release_date": "2015-12-01",
+            "url": "https://cdn.akamai.steamstatic.com/steam/apps/292030/header.jpg?t=1680026100",
+            "name": "Stardew Valley",
+            "price": 37,
+            "discount": 0,
+            "featured": false,
+            "embed": "ot7uXNQskhs",
+            "publisher": "ConcernedApe",
+            "developer": "ConcernedApe",
+            "release_date": "2016-02-26",
             "categories": [
-                "FPS",
-                "Tático",
-                "Multijogador"
-            ],
-            "game_mode": [
-                "Multijogador",
-                "Coop"
-            ],
-            "rating": "18+",
-            "description": "Rainbow Six Siege é um FPS tático baseado em equipes que coloca estratégia e habilidade no centro das batalhas."
-        },
-        {
-            "id": 10,
-            "url": "https://cdn.akamai.steamstatic.com/steam/apps/374320/header.jpg?t=1675297587",
-            "name": "Dark Souls III",
-            "price": 90,
-            "discount": 35,
-            "embed": "cWBwFhUv1-8",
-            "publisher": "Bandai Namco Entertainment",
-            "developer": "FromSoftware",
-            "release_date": "2016-04-12",
-            "categories": [
+                "Simulação",
                 "RPG",
-                "Ação",
-                "Desafiante"
+                "Agricultura"
             ],
             "game_mode": [
                 "Um jogador",
                 "Coop"
             ],
-            "rating": "16+",
-            "description": "Dark Souls III é um RPG de ação conhecido por sua dificuldade extrema, combates épicos e uma narrativa sombria."
+            "rating": "Livre",
+            "description": "Stardew Valley é uma experiência relaxante de simulação agrícola. Transforme uma fazenda abandonada em um oásis próspero enquanto planta culturas, cria animais, interage com a comunidade local e até encontra o amor. Com gráficos encantadores, mecânicas profundas e a opção de jogar cooperativamente, Stardew Valley é perfeito para quem busca uma experiência imersiva e tranquila."
+        },
+        {
+            "id": 10,
+            "url": "https://cdn.akamai.steamstatic.com/steam/apps/1250410/header.jpg?t=1630619132",
+            "name": "Among Us",
+            "price": 10,
+            "discount": 0,
+            "featured": false,
+            "embed": "nsZpDT0vL_E",
+            "publisher": "Innersloth",
+            "developer": "Innersloth",
+            "release_date": "2018-11-16",
+            "categories": [
+                "Party Game",
+                "Coop",
+                "Multijogador"
+            ],
+            "game_mode": [
+                "Multijogador"
+            ],
+            "rating": "Livre",
+            "description": "Among Us é um divertido jogo de dedução social onde você trabalha com outros jogadores para completar tarefas em uma nave espacial. Mas cuidado: impostores estão infiltrados, sabotando a tripulação e eliminando membros um a um. Trabalhe em equipe para descobrir os culpados antes que seja tarde demais. Ideal para jogar com amigos ou em grupos online!"
         }
     ]
 }

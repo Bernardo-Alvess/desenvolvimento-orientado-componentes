@@ -12,8 +12,16 @@ export default function Home() {
 				<h1>Bem Vindo à Mago Games, a sua loja de jogos digitais!</h1>
 			</div>
 			<Carrousel />
-			<GameContainer icon={''} name={'Em Alta'} limit={0} />
-			<GameContainer icon={''} name={'Ofertas'} limit={0} />
+			<GameContainer
+				icon={'/icons/fire.svg'}
+				name={'Em Alta'}
+				limit={10}
+			/>
+			<GameContainer
+				icon={'/icons/offer.svg'}
+				name={'Ofertas'}
+				limit={10}
+			/>
 		</div>
 	);
 }

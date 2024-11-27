@@ -24,7 +24,7 @@ export default function RootLayout({
 	return (
 		<html lang="en">
 			<body
-				className={`${kadwa.variable} antialiased bg-background text-white`}
+				className={`${kadwa.variable} antialiased bg-background text-white leading-relaxed`}
 			>
 				<Header />
 				{children}
