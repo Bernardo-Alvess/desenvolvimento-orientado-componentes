@@ -89,6 +89,9 @@ const ProductDetails = () => {
 									-{' '}
 								</p>
 							</div>
+							<div>
+								<p>CATEGORIA/GÊNERO</p>
+							</div>
 						</div>
 					</div>
 				</div>
