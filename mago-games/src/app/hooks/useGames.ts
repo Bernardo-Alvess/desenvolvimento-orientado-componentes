@@ -1,14 +1,17 @@
+'use client'
+
+import { useState } from "react";
+import { Game } from "../types/Game.type";
+
 export default function useGames() {
 
-	async function getGames(limit?: number | null) {
+	async function getGames(limit?: number | null): Promise<{ data: Game[]; count: number } | undefined> {
 		try {
 			const response = await fetch(`http://localhost:3001/games?_limit=${limit}`)
-			console.log(response)
-
 			if (response.ok) {
-				const data = await response.json()
-				console.log(data)
-				return data;
+				const data: Game[] = await response.json()
+				const count = Object.entries(data).length
+				return { data, count };
 			}
 			console.error('Erro ao retornar dados sobre jogos')
 		} catch (e) {
@@ -17,8 +20,6 @@ export default function useGames() {
 	}
 
 	async function getGameById(id: string) {
-		console.log(id)
-
 		try {
 			const response = await fetch(`http://localhost:3001/games/${id}`)
 
@@ -48,10 +49,47 @@ export default function useGames() {
 		}
 	}
 
+	async function createGame(gameObj: Game) {
+		const result = await getGames()
+		gameObj.id = result!.count + 1
+		try {
+			const response = await fetch(`http://localhost:3001/games`, {
+				method: 'POST',
+				headers: {
+					'Content-Type': 'application/json'
+				},
+				body: JSON.stringify(gameObj)
+			})
+
+			if (response.ok) {
+				return true
+			}
+
+			console.error('Erro ao criar um novo jogo no banco de dados')
+			return false
+		} catch (e) {
+			console.error(e)
+		}
+	}
+
+	async function deleteGame(id: number) {
+		const response = await fetch(`http://localhost:3001/games/${id}`, {
+			method: 'DELETE'
+		})
+
+		if (response.ok) {
+			return true
+		}
+		console.error('Não foi possivel deletar o jogo especificado')
+		return false
+	}
+
 	return {
 		getGames,
 		getFeaturedGames,
-		getGameById
+		getGameById,
+		createGame,
+		deleteGame,
 	}
 
 }

@@ -1,12 +1,13 @@
+import useGames from '@/app/hooks/useGames';
 import Link from 'next/link';
-import React from 'react';
+import { useRouter } from 'next/navigation';
 
 interface Props {
-	id: number;
+	id: number | undefined;
 	imageUrl: string;
 	name: string;
-	discount?: number;
-	price: number;
+	discount?: string;
+	price: string;
 	showActions?: boolean;
 }
 
@@ -18,12 +19,24 @@ const GameCard = ({
 	id,
 	showActions,
 }: Props) => {
-	const handleGameDelete = () => {
-		alert('delete ' + id);
+	const { deleteGame } = useGames();
+	const handleGameDelete = async () => {
+		try {
+			if (id) {
+				const deleted = await deleteGame(id);
+				if (deleted) {
+					alert('deletado com sucesso');
+				} else {
+					alert('Nao foi possivel deletar');
+				}
+			}
+		} catch (e) {
+			console.error(e);
+		}
 	};
 
 	return (
-		<div className="flex gap-1">
+		<div className="col-span-1 flex gap-1 w-full">
 			<Link
 				href={`/products/${id}`}
 				className="w-72 h-80 bg-cardBackground rounded-xl flex flex-col gap-2"
@@ -31,7 +44,7 @@ const GameCard = ({
 				<img
 					src={imageUrl}
 					alt={`${name} cover`}
-					className="w-full h-1/2 object-cover rounded-t-xl"
+					className="h-1/2 object-cover rounded-t-xl"
 				/>
 				<div className="flex flex-col justify-between gap-14 px-2">
 					<div>
@@ -57,7 +70,7 @@ const GameCard = ({
 				</div>
 			</Link>
 			{showActions ? (
-				<div onClick={handleGameDelete}>
+				<div onClick={handleGameDelete} className="cursor-pointer">
 					<img src={'/icons/trash.svg'} />
 				</div>
 			) : null}

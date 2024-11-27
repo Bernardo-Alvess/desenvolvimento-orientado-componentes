@@ -1,18 +1,25 @@
-import React, { FormEvent, useState } from 'react';
+'use client';
 
-const CreateGame = () => {
+import React, { FormEvent, useState } from 'react';
+import { extractYouTubeVideoId } from '../common/util/extractIdFromYtVideo';
+import useGames from '../hooks/useGames';
+import { splitStringByComma } from '../common/util/splitStringByComma';
+import { create } from 'domain';
+
+const CreateGameForm = () => {
+	const { createGame } = useGames();
 	const [formData, setFormData] = useState({
 		name: '',
 		price: '',
 		discount: '',
 		publisher: '',
 		developer: '',
-		releaseDate: '',
+		release_date: '',
 		categories: '',
-		gameMode: '',
+		game_mode: '',
 		rating: '',
-		imageUrl: '',
-		trailerUrl: '',
+		url: '',
+		embed: '',
 		description: '',
 	});
 
@@ -26,13 +33,26 @@ const CreateGame = () => {
 		}));
 	};
 
-	const handleSubmit = (e: FormEvent<HTMLFormElement>) => {
+	const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
 		e.preventDefault();
-		console.log('Form data submitted:', formData);
+		const embed = extractYouTubeVideoId(formData.embed);
+		const categories = splitStringByComma(formData.categories);
+		const game_mode = splitStringByComma(formData.game_mode);
+		const created = await createGame({
+			...formData,
+			embed,
+			categories,
+			featured: false,
+			game_mode,
+		});
+
+		if (created) {
+			alert('criado');
+		}
 	};
 
 	return (
-		<div className="bg-purple-500 p-6 rounded-lg shadow-lg w-full max-w-md mx-auto">
+		<div className="bg-purple-500 p-6 rounded-lg shadow-lg w-full max-w-md mx-auto text-black">
 			<h1 className="text-white text-2xl font-bold text-center mb-6">
 				Cadastre um jogo
 			</h1>
@@ -83,7 +103,7 @@ const CreateGame = () => {
 
 				<div>
 					<label className="block text-white font-medium mb-1">
-						Publicadora *
+						Publicadora
 					</label>
 					<input
 						type="text"
@@ -92,13 +112,12 @@ const CreateGame = () => {
 						onChange={handleChange}
 						placeholder="Digite a publicadora"
 						className="w-full px-4 py-2 border rounded focus:outline-none focus:ring-2 focus:ring-purple-300"
-						required
 					/>
 				</div>
 
 				<div>
 					<label className="block text-white font-medium mb-1">
-						Desenvolvedora *
+						Desenvolvedora
 					</label>
 					<input
 						type="text"
@@ -107,21 +126,19 @@ const CreateGame = () => {
 						onChange={handleChange}
 						placeholder="Digite a desenvolvedora"
 						className="w-full px-4 py-2 border rounded focus:outline-none focus:ring-2 focus:ring-purple-300"
-						required
 					/>
 				</div>
 
 				<div>
 					<label className="block text-white font-medium mb-1">
-						Data de lançamento *
+						Data de lançamento
 					</label>
 					<input
 						type="date"
-						name="releaseDate"
-						value={formData.releaseDate}
+						name="release_date"
+						value={formData.release_date}
 						onChange={handleChange}
 						className="w-full px-4 py-2 border rounded focus:outline-none focus:ring-2 focus:ring-purple-300"
-						required
 					/>
 				</div>
 
@@ -134,7 +151,7 @@ const CreateGame = () => {
 						name="categories"
 						value={formData.categories}
 						onChange={handleChange}
-						placeholder="Ex.: Aventura, RPG"
+						placeholder="Ex.: Aventura, RPG - (separe por virgulas)"
 						className="w-full px-4 py-2 border rounded focus:outline-none focus:ring-2 focus:ring-purple-300"
 						required
 					/>
@@ -142,16 +159,15 @@ const CreateGame = () => {
 
 				<div>
 					<label className="block text-white font-medium mb-1">
-						Modo de jogo *
+						Modo de jogo
 					</label>
 					<input
 						type="text"
-						name="gameMode"
-						value={formData.gameMode}
+						name="game_mode"
+						value={formData.game_mode}
 						onChange={handleChange}
 						placeholder="Ex.: Um jogador, Coop"
 						className="w-full px-4 py-2 border rounded focus:outline-none focus:ring-2 focus:ring-purple-300"
-						required
 					/>
 				</div>
 
@@ -176,8 +192,8 @@ const CreateGame = () => {
 					</label>
 					<input
 						type="url"
-						name="imageUrl"
-						value={formData.imageUrl}
+						name="url"
+						value={formData.url}
 						onChange={handleChange}
 						placeholder="Digite a URL da imagem"
 						className="w-full px-4 py-2 border rounded focus:outline-none focus:ring-2 focus:ring-purple-300"
@@ -191,18 +207,17 @@ const CreateGame = () => {
 					</label>
 					<input
 						type="url"
-						name="trailerUrl"
-						value={formData.trailerUrl}
+						name="embed"
+						value={formData.embed}
 						onChange={handleChange}
 						placeholder="Digite a URL do vídeo"
 						className="w-full px-4 py-2 border rounded focus:outline-none focus:ring-2 focus:ring-purple-300"
 						required
 					/>
 				</div>
-
 				<div>
 					<label className="block text-white font-medium mb-1">
-						Descrição *
+						Descrição
 					</label>
 					<textarea
 						name="description"
@@ -211,7 +226,6 @@ const CreateGame = () => {
 						// rows="4"
 						placeholder="Digite aqui..."
 						className="w-full px-4 py-2 border rounded focus:outline-none focus:ring-2 focus:ring-purple-300"
-						required
 					/>
 				</div>
 
@@ -228,4 +242,4 @@ const CreateGame = () => {
 	);
 };
 
-export default CreateGame;
+export default CreateGameForm;

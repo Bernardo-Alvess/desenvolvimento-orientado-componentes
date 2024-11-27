@@ -3,8 +3,6 @@
 import { YoutubeEmbed } from '@/app/components/YoutubeEmbed';
 import useGames from '@/app/hooks/useGames';
 import { Game } from '@/app/types/Game.type';
-import { Heading1 } from 'lucide-react';
-import { David_Libre } from 'next/font/google';
 import { useParams } from 'next/navigation';
 import React, { useEffect, useState } from 'react';
 
@@ -12,8 +10,6 @@ const ProductDetails = () => {
 	const { id } = useParams();
 	const [game, setGame] = useState<Game>();
 	const { getGameById } = useGames();
-
-	console.log(id);
 
 	useEffect(() => {
 		const fetchGame = async () => {

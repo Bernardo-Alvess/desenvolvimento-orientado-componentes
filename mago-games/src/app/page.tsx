@@ -16,11 +16,13 @@ export default function Home() {
 				icon={'/icons/fire.svg'}
 				name={'Em Alta'}
 				limit={10}
+				cols={5}
 			/>
 			<GameContainer
 				icon={'/icons/offer.svg'}
 				name={'Ofertas'}
 				limit={10}
+				cols={5}
 			/>
 		</div>
 	);

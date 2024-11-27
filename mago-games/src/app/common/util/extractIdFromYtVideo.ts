@@ -1,4 +1,4 @@
-function extractYouTubeVideoId(url: string) {
+export function extractYouTubeVideoId(url: string): string {
     const urlObj = new URL(url);
-    return urlObj.searchParams.get('v');
+    return urlObj.searchParams.get('v')!;
 }

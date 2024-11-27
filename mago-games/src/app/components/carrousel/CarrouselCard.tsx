@@ -5,8 +5,8 @@ interface Props {
 	imageHeigth: number;
 	tagPadding: number;
 	imageUrl: string;
-	discount?: number;
-	price: number;
+	discount?: string;
+	price: string;
 }
 
 const CarrouselCard = ({

@@ -1,9 +1,9 @@
 export interface Game {
-    id: number,
+    id?: number,
     url: string,
     name: string,
-    price: number,
-    discount: number,
+    price: string,
+    discount: string,
     featured: boolean
     embed: string;
     publisher: string;

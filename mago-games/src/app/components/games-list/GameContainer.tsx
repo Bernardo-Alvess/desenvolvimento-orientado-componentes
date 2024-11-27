@@ -10,18 +10,17 @@ interface Props {
 	name: string;
 	limit: number | null;
 	showActions?: boolean;
+	cols: number;
 }
 
-const GameContainer = ({ icon, name, limit, showActions }: Props) => {
+const GameContainer = ({ icon, name, limit, showActions, cols }: Props) => {
 	const { getGames } = useGames();
-	const [data, setData] = useState<Game[] | undefined>();
-	998;
+	const [games, setGames] = useState<Game[] | undefined>();
 
 	useEffect(() => {
 		const fetchGames = async () => {
-			const games = await getGames(limit);
-			console.log(games);
-			setData(games);
+			const result = await getGames(limit);
+			if (result) setGames(result.data);
 		};
 
 		fetchGames();
@@ -29,15 +28,20 @@ const GameContainer = ({ icon, name, limit, showActions }: Props) => {
 
 	return (
 		<div className="w-full flex justify-center p-3">
-			<div className="flex flex-col justify-start w-11/12 gap-4">
+			<div className="flex flex-col justify-start w-11/12 gap-4 mx-auto">
 				<h1 className="flex gap-2 text-4xl font-bold">
 					<span>
 						<img src={icon} className="size-9" />
 					</span>
 					{name}
 				</h1>
-				<div className="flex flex-wrap flex-row gap-8 items-center justify-center">
-					{data?.map((game) => (
+				<div
+					className="grid gap-8"
+					style={{
+						gridTemplateColumns: `repeat(${cols}, minmax(0, 1fr))`,
+					}}
+				>
+					{games?.map((game) => (
 						<GameCard
 							key={game.id}
 							id={game.id}

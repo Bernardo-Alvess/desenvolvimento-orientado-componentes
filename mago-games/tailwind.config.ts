@@ -17,6 +17,10 @@ export default {
         tertiary: '#7F52A3',
         cardBackground: '#D7B2FD'
       },
+      gridTemplateColumns: {
+        'auto-fit': 'repeat(auto-fit, minmax(200px, 1fr))', // Min 200px, cards ocupam igualmente.
+        'auto-fill': 'repeat(auto-fill, minmax(200px, 1fr))',
+      },
     },
   },
   plugins: [],
