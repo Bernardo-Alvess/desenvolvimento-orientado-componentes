@@ -5,6 +5,8 @@ import { extractYouTubeVideoId } from '../common/util/extractIdFromYtVideo';
 import useGames from '../hooks/useGames';
 import { splitStringByComma } from '../common/util/splitStringByComma';
 import { create } from 'domain';
+import { toast } from 'sonner';
+import CustomToast from './CustomToast';
 
 const CreateGameForm = () => {
 	const { createGame } = useGames();
@@ -47,7 +49,19 @@ const CreateGameForm = () => {
 		});
 
 		if (created) {
-			alert('criado');
+			toast(
+				<CustomToast
+					title={'Jogo criado com sucesso!'}
+					icon={'/icons/check.svg'}
+				/>
+			);
+		} else {
+			toast(
+				<CustomToast
+					title={'Erro ao criar jogo!'}
+					icon={'/icons/warning.svg'}
+				/>
+			);
 		}
 	};
 

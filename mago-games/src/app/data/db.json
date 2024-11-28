@@ -182,28 +182,6 @@
       "description": "Experimente a jornada épica de Arthur Morgan e a gangue Van der Linde enquanto lutam para sobreviver na América do final do século XIX."
     },
     {
-      "id": "9",
-      "url": "https://cdn.akamai.steamstatic.com/steam/apps/548430/header.jpg?t=1686464231",
-      "name": "Deep Rock Galactic",
-      "price": 80,
-      "discount": 20,
-      "featured": false,
-      "embed": "yY0WGJjCy60",
-      "publisher": "Ghost Ship Games",
-      "developer": "Ghost Ship Games",
-      "release_date": "2020-05-13",
-      "categories": [
-        "Cooperativo",
-        "Tiro",
-        "Exploração"
-      ],
-      "game_mode": [
-        "Multijogador"
-      ],
-      "rating": "10+",
-      "description": "Trabalhe com seus amigos para explorar cavernas cheias de perigos e riquezas em Deep Rock Galactic. Personalize seu anão minerador e enfrente inimigos com armas poderosas em um ambiente de destruição completa."
-    },
-    {
       "id": "15",
       "url": "https://cdn.akamai.steamstatic.com/steam/apps/1593500/header.jpg?t=1658456456",
       "name": "God of War",
@@ -225,6 +203,5 @@
       "rating": "18+",
       "description": "Em God of War (2018), Kratos embarca em uma jornada emocional com seu filho Atreus em um mundo inspirado na mitologia nórdica. Explore um universo belamente construído, enfrente inimigos desafiadores e descubra uma narrativa rica sobre família, vingança e redenção."
     }
-    
   ]
 }

@@ -27,7 +27,7 @@ const DeleteGameModal = ({ isOpen, onClose, id }: Props) => {
 			toast(
 				<CustomToast
 					title={'Erro ao deletar o jogo'}
-					icon={'/icons/check.svg'}
+					icon={'/icons/warning.svg'}
 				/>
 			);
 		}
