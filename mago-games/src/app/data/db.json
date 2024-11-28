@@ -23,7 +23,7 @@
       "description": "Hollow Knight: Silksong é a aguardada sequência do aclamado jogo indie Hollow Knight. No papel de Hornet, uma princesa-protetora, você embarcará em uma jornada épica para desvendar os mistérios de um reino desconhecido. Explore ambientes vastos e deslumbrantes, enfrente criaturas ferozes e use uma variedade de ferramentas e habilidades para superar desafios únicos. O jogo apresenta um mundo ricamente detalhado, novos aliados e inimigos, além de uma trilha sonora hipnotizante. Com uma narrativa envolvente e mecânicas de combate aprimoradas, Silksong promete uma experiência inesquecível para fãs de Metroidvania e novatos na série."
     },
     {
-      "id": "6",
+      "id": "2",
       "url": "https://cdn.akamai.steamstatic.com/steam/apps/570/header.jpg?t=1684503856",
       "name": "Dota 2",
       "price": 0,
@@ -45,7 +45,7 @@
       "description": "Dota 2 é um dos maiores e mais jogados MOBAs do mundo. Com batalhas intensas e estratégia complexa, jogadores escolhem heróis únicos para enfrentar adversários em arenas cheias de ação. Atualizações constantes e uma cena competitiva global tornam Dota 2 indispensável para fãs de estratégia e trabalho em equipe."
     },
     {
-      "id": "7",
+      "id": "3",
       "url": "https://cdn.akamai.steamstatic.com/steam/apps/271590/header.jpg?t=1684700770",
       "name": "Grand Theft Auto V",
       "price": 70,
@@ -68,7 +68,7 @@
       "description": "Explore Los Santos e Blaine County em Grand Theft Auto V, um marco em jogos de mundo aberto. Siga as histórias de Michael, Trevor e Franklin enquanto vivem um épico de crimes, traições e aventuras em um mundo vibrante e interativo. Experimente também o GTA Online para ação multiplayer."
     },
     {
-      "id": "8",
+      "id": "4",
       "url": "https://cdn.akamai.steamstatic.com/steam/apps/394360/header.jpg?t=1684934552",
       "name": "Hearts of Iron IV",
       "price": 120,
@@ -91,7 +91,7 @@
       "description": "Assuma o comando de uma nação durante a Segunda Guerra Mundial em Hearts of Iron IV. Este jogo de estratégia profunda permite liderar exércitos, criar alianças e moldar o destino do mundo. Com uma jogabilidade rica em detalhes, o título desafia até os mais experientes estrategistas."
     },
     {
-      "id": "11",
+      "id": "5",
       "url": "https://cdn.akamai.steamstatic.com/steam/apps/594570/header.jpg?t=1685894016",
       "name": "Total War: Warhammer II",
       "price": 120,
@@ -114,7 +114,7 @@
       "description": "Conduza exércitos de fantasia épica em Total War: Warhammer II. Combinando batalhas em tempo real com gerenciamento estratégico, este jogo desafia sua habilidade de liderar as maiores civilizações de Warhammer Fantasy para a vitória."
     },
     {
-      "id": "13",
+      "id": "6",
       "url": "https://cdn.akamai.steamstatic.com/steam/apps/1091500/header.jpg?t=1686013239",
       "name": "Cyberpunk 2077",
       "price": 200,
@@ -134,6 +134,97 @@
       ],
       "rating": "18+",
       "description": "Cyberpunk 2077 é um RPG de mundo aberto ambientado na vibrante e perigosa cidade de Night City. Personalize seu personagem, explore narrativas ricas e enfrente desafios enquanto busca poder, fama e sobrevivência em um futuro distópico."
+    },
+    {
+      "id": "7",
+      "url": "https://cdn.akamai.steamstatic.com/steam/apps/1240440/header.jpg?t=1686053221",
+      "name": "Valheim",
+      "price": 80,
+      "discount": 25,
+      "featured": true,
+      "embed": "By3l3Q6LQl4",
+      "publisher": "Iron Gate Studio",
+      "developer": "Iron Gate Studio",
+      "release_date": "2021-02-02",
+      "categories": [
+        "Sobrevivência",
+        "Mundo Aberto",
+        "Cooperativo"
+      ],
+      "game_mode": [
+        "Multijogador",
+        "Cooperativo"
+      ],
+      "rating": "12+",
+      "description": "Explore um vasto mundo de mitologia nórdica em Valheim. Construa, lute e sobreviva sozinho ou com amigos em um jogo que desafia sua criatividade e estratégia."
+    },
+    {
+      "id": "8",
+      "url": "https://cdn.akamai.steamstatic.com/steam/apps/1174180/header.jpg?t=1686265223",
+      "name": "Red Dead Redemption 2",
+      "price": 150,
+      "discount": 30,
+      "featured": true,
+      "embed": "eaW0tYpxyp0",
+      "publisher": "Rockstar Games",
+      "developer": "Rockstar Studios",
+      "release_date": "2018-10-26",
+      "categories": [
+        "Mundo Aberto",
+        "Aventura",
+        "Faroeste"
+      ],
+      "game_mode": [
+        "Um jogador",
+        "Multijogador"
+      ],
+      "rating": "18+",
+      "description": "Experimente a jornada épica de Arthur Morgan e a gangue Van der Linde enquanto lutam para sobreviver na América do final do século XIX."
+    },
+    {
+      "id": "9",
+      "url": "https://cdn.akamai.steamstatic.com/steam/apps/548430/header.jpg?t=1686464231",
+      "name": "Deep Rock Galactic",
+      "price": 80,
+      "discount": 20,
+      "featured": false,
+      "embed": "yY0WGJjCy60",
+      "publisher": "Ghost Ship Games",
+      "developer": "Ghost Ship Games",
+      "release_date": "2020-05-13",
+      "categories": [
+        "Cooperativo",
+        "Tiro",
+        "Exploração"
+      ],
+      "game_mode": [
+        "Multijogador"
+      ],
+      "rating": "10+",
+      "description": "Trabalhe com seus amigos para explorar cavernas cheias de perigos e riquezas em Deep Rock Galactic. Personalize seu anão minerador e enfrente inimigos com armas poderosas em um ambiente de destruição completa."
+    },
+    {
+      "id": "15",
+      "url": "https://cdn.akamai.steamstatic.com/steam/apps/1593500/header.jpg?t=1658456456",
+      "name": "God of War",
+      "price": 200,
+      "discount": 25,
+      "featured": true,
+      "embed": "BoWJ4IhbQrs",
+      "publisher": "Sony Interactive Entertainment",
+      "developer": "Santa Monica Studio",
+      "release_date": "2018-04-20",
+      "categories": [
+        "Ação",
+        "Aventura",
+        "História"
+      ],
+      "game_mode": [
+        "Um jogador"
+      ],
+      "rating": "18+",
+      "description": "Em God of War (2018), Kratos embarca em uma jornada emocional com seu filho Atreus em um mundo inspirado na mitologia nórdica. Explore um universo belamente construído, enfrente inimigos desafiadores e descubra uma narrativa rica sobre família, vingança e redenção."
     }
+    
   ]
 }

@@ -19,7 +19,6 @@ const ProductDetails = () => {
 		fetchGame();
 	}, []);
 
-	console.log(game);
 
 	return (
 		<div className="w-full pb-16">
