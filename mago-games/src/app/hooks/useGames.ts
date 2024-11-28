@@ -72,7 +72,7 @@ export default function useGames() {
 		}
 	}
 
-	async function deleteGame(id: number) {
+	async function deleteGame(id: number | undefined) {
 		const response = await fetch(`http://localhost:3001/games/${id}`, {
 			method: 'DELETE'
 		})

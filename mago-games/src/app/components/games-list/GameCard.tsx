@@ -1,6 +1,8 @@
 import useGames from '@/app/hooks/useGames';
 import Link from 'next/link';
 import { useRouter } from 'next/navigation';
+import DeleteGameModal from '../DeleteGameModal';
+import { useState } from 'react';
 
 interface Props {
 	id: number | undefined;
@@ -19,24 +21,15 @@ const GameCard = ({
 	id,
 	showActions,
 }: Props) => {
-	const { deleteGame } = useGames();
-	const handleGameDelete = async () => {
-		try {
-			if (id) {
-				const deleted = await deleteGame(id);
-				if (deleted) {
-					alert('deletado com sucesso');
-				} else {
-					alert('Nao foi possivel deletar');
-				}
-			}
-		} catch (e) {
-			console.error(e);
-		}
-	};
+	const [isModalOpen, setIsModalOpen] = useState(false);
 
 	return (
 		<div className="col-span-1 flex gap-1 w-full">
+			<DeleteGameModal
+				id={id}
+				isOpen={isModalOpen}
+				onClose={() => setIsModalOpen(false)}
+			/>
 			<Link
 				href={`/products/${id}`}
 				className="w-72 h-80 bg-cardBackground rounded-xl flex flex-col gap-2"
@@ -70,7 +63,10 @@ const GameCard = ({
 				</div>
 			</Link>
 			{showActions ? (
-				<div onClick={handleGameDelete} className="cursor-pointer">
+				<div
+					onClick={() => setIsModalOpen(true)}
+					className="cursor-pointer"
+				>
 					<img src={'/icons/trash.svg'} />
 				</div>
 			) : null}

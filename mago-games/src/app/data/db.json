@@ -23,117 +23,117 @@
       "description": "Hollow Knight: Silksong é a aguardada sequência do aclamado jogo indie Hollow Knight. No papel de Hornet, uma princesa-protetora, você embarcará em uma jornada épica para desvendar os mistérios de um reino desconhecido. Explore ambientes vastos e deslumbrantes, enfrente criaturas ferozes e use uma variedade de ferramentas e habilidades para superar desafios únicos. O jogo apresenta um mundo ricamente detalhado, novos aliados e inimigos, além de uma trilha sonora hipnotizante. Com uma narrativa envolvente e mecânicas de combate aprimoradas, Silksong promete uma experiência inesquecível para fãs de Metroidvania e novatos na série."
     },
     {
-      "id": "2",
-      "url": "https://cdn.akamai.steamstatic.com/steam/apps/105600/header.jpg?t=1669926801",
-      "name": "Terraria",
-      "price": 25,
-      "discount": 10,
+      "id": "6",
+      "url": "https://cdn.akamai.steamstatic.com/steam/apps/570/header.jpg?t=1684503856",
+      "name": "Dota 2",
+      "price": 0,
+      "discount": 0,
       "featured": true,
-      "embed": "G9Dgrn2Kb-w",
-      "publisher": "Re-Logic",
-      "developer": "Re-Logic",
-      "release_date": "2011-05-16",
+      "embed": "SmnlfW8t9nQ",
+      "publisher": "Valve",
+      "developer": "Valve",
+      "release_date": "2013-07-09",
       "categories": [
-        "Sandbox",
-        "Aventura",
-        "Sobrevivência"
+        "MOBA",
+        "Estratégia",
+        "Competitivo"
       ],
       "game_mode": [
-        "Um jogador",
-        "Coop"
+        "Multijogador"
       ],
-      "rating": "Livre",
-      "description": "Terraria é um jogo de sandbox incrivelmente variado onde o limite é sua imaginação. Mergulhe em um mundo gerado proceduralmente e personalize sua aventura, desde explorar cavernas profundas e encontrar tesouros ocultos até enfrentar chefes desafiadores e construir estruturas impressionantes. Com um sistema de crafting vasto, biomas únicos e desafios emocionantes, Terraria oferece uma experiência que se adapta a qualquer estilo de jogador, seja você um construtor criativo, um aventureiro corajoso ou um explorador curioso. Aproveite modos single-player ou coop para explorar este mundo fascinante com amigos."
+      "rating": "12+",
+      "description": "Dota 2 é um dos maiores e mais jogados MOBAs do mundo. Com batalhas intensas e estratégia complexa, jogadores escolhem heróis únicos para enfrentar adversários em arenas cheias de ação. Atualizações constantes e uma cena competitiva global tornam Dota 2 indispensável para fãs de estratégia e trabalho em equipe."
     },
     {
-      "id": "3",
-      "url": "https://cdn.akamai.steamstatic.com/steam/apps/1174180/header.jpg?t=1695237078",
-      "name": "Red Dead Redemption 2",
-      "price": 120,
-      "discount": 20,
+      "id": "7",
+      "url": "https://cdn.akamai.steamstatic.com/steam/apps/271590/header.jpg?t=1684700770",
+      "name": "Grand Theft Auto V",
+      "price": 70,
+      "discount": 50,
       "featured": true,
-      "embed": "eaW0tYpxyp0",
+      "embed": "QkkoHAzjnUs",
       "publisher": "Rockstar Games",
-      "developer": "Rockstar Games",
-      "release_date": "2018-10-26",
+      "developer": "Rockstar North",
+      "release_date": "2015-04-14",
       "categories": [
         "Ação",
-        "Aventura",
-        "Mundo Aberto"
+        "Mundo Aberto",
+        "Aventura"
       ],
       "game_mode": [
         "Um jogador",
         "Multijogador"
       ],
       "rating": "18+",
-      "description": "Red Dead Redemption 2 é uma obra-prima narrativa que transporta os jogadores para o coração do Velho Oeste americano. No papel de Arthur Morgan, um membro leal da gangue Van der Linde, você experimentará uma história complexa de honra, lealdade e sobrevivência em um mundo que está mudando rapidamente. Explore um vasto e detalhado mundo aberto com uma vida selvagem diversificada, cidades vibrantes e uma natureza deslumbrante. Com mecânicas de jogo imersivas, um sistema de escolhas que afeta a narrativa e um modo multiplayer expansivo, RDR2 oferece uma experiência inesquecível tanto em sua campanha quanto em seu mundo online."
+      "description": "Explore Los Santos e Blaine County em Grand Theft Auto V, um marco em jogos de mundo aberto. Siga as histórias de Michael, Trevor e Franklin enquanto vivem um épico de crimes, traições e aventuras em um mundo vibrante e interativo. Experimente também o GTA Online para ação multiplayer."
     },
     {
-      "id": "4",
-      "url": "https://cdn.akamai.steamstatic.com/steam/apps/730/header.jpg?t=1683566799",
-      "name": "Counter-Strike: Global Offensive",
-      "price": 0,
-      "discount": 0,
-      "featured": true,
-      "embed": "edYCtaNueQY",
-      "publisher": "Valve",
-      "developer": "Valve",
-      "release_date": "2012-08-21",
+      "id": "8",
+      "url": "https://cdn.akamai.steamstatic.com/steam/apps/394360/header.jpg?t=1684934552",
+      "name": "Hearts of Iron IV",
+      "price": 120,
+      "discount": 20,
+      "featured": false,
+      "embed": "yRCkEF7F0_Y",
+      "publisher": "Paradox Interactive",
+      "developer": "Paradox Development Studio",
+      "release_date": "2016-06-06",
       "categories": [
-        "FPS",
-        "Competitivo",
-        "Multijogador"
+        "Estratégia",
+        "Simulação",
+        "Histórico"
       ],
       "game_mode": [
+        "Um jogador",
         "Multijogador"
       ],
-      "rating": "16+",
-      "description": "Counter-Strike: Global Offensive (CS:GO) é um marco no gênero de jogos de tiro em primeira pessoa. Este jogo competitivo coloca equipes de terroristas contra contra-terroristas em uma luta por objetivos estratégicos. Com diversos modos de jogo, incluindo casual, ranqueado e battle royale, CS:GO atrai jogadores de todos os níveis de habilidade. Suas atualizações constantes e uma vibrante cena de eSports fazem dele uma escolha popular entre fãs de FPS, enquanto sua jogabilidade focada em trabalho em equipe e habilidade oferece desafios emocionantes."
+      "rating": "Livre",
+      "description": "Assuma o comando de uma nação durante a Segunda Guerra Mundial em Hearts of Iron IV. Este jogo de estratégia profunda permite liderar exércitos, criar alianças e moldar o destino do mundo. Com uma jogabilidade rica em detalhes, o título desafia até os mais experientes estrategistas."
     },
     {
-      "id": "5",
-      "url": "https://cdn.akamai.steamstatic.com/steam/apps/292030/header.jpg?t=1680026100",
-      "name": "The Witcher 3: Wild Hunt",
-      "price": 50,
-      "discount": 30,
-      "featured": true,
-      "embed": "c0i88t0Kacs",
+      "id": "11",
+      "url": "https://cdn.akamai.steamstatic.com/steam/apps/594570/header.jpg?t=1685894016",
+      "name": "Total War: Warhammer II",
+      "price": 120,
+      "discount": 50,
+      "featured": false,
+      "embed": "e-J0Nh8QjqM",
+      "publisher": "SEGA",
+      "developer": "Creative Assembly",
+      "release_date": "2017-09-28",
+      "categories": [
+        "Estratégia",
+        "Fantasia",
+        "Turn-based"
+      ],
+      "game_mode": [
+        "Um jogador",
+        "Multijogador"
+      ],
+      "rating": "Livre",
+      "description": "Conduza exércitos de fantasia épica em Total War: Warhammer II. Combinando batalhas em tempo real com gerenciamento estratégico, este jogo desafia sua habilidade de liderar as maiores civilizações de Warhammer Fantasy para a vitória."
+    },
+    {
+      "id": "13",
+      "url": "https://cdn.akamai.steamstatic.com/steam/apps/1091500/header.jpg?t=1686013239",
+      "name": "Cyberpunk 2077",
+      "price": 200,
+      "discount": 40,
+      "featured": false,
+      "embed": "qIcTM8WXFjk",
       "publisher": "CD Projekt Red",
       "developer": "CD Projekt Red",
-      "release_date": "2015-05-18",
+      "release_date": "2020-12-10",
       "categories": [
         "RPG",
         "Ação",
-        "Mundo Aberto"
+        "Ficção Científica"
       ],
       "game_mode": [
         "Um jogador"
       ],
       "rating": "18+",
-      "description": "The Witcher 3: Wild Hunt é um RPG épico que redefine o gênero. Assuma o papel de Geralt de Rívia, um caçador de monstros lendário em busca de sua filha adotiva, Ciri, enquanto o mundo é ameaçado por uma força sombria conhecida como a Caçada Selvagem. Com um mundo aberto vasto e repleto de vida, personagens memoráveis, quests envolventes e decisões que impactam profundamente a narrativa, The Witcher 3 oferece centenas de horas de exploração, combate emocionante e histórias cativantes que continuam a cativar jogadores ao redor do mundo."
-    },
-    {
-      "id": "9",
-      "url": "https://cdn.akamai.steamstatic.com/steam/apps/292030/header.jpg?t=1680026100",
-      "name": "Stardew Valley",
-      "price": 37,
-      "discount": 0,
-      "featured": false,
-      "embed": "ot7uXNQskhs",
-      "publisher": "ConcernedApe",
-      "developer": "ConcernedApe",
-      "release_date": "2016-02-26",
-      "categories": [
-        "Simulação",
-        "RPG",
-        "Agricultura"
-      ],
-      "game_mode": [
-        "Um jogador",
-        "Coop"
-      ],
-      "rating": "Livre",
-      "description": "Stardew Valley é uma experiência relaxante de simulação agrícola. Transforme uma fazenda abandonada em um oásis próspero enquanto planta culturas, cria animais, interage com a comunidade local e até encontra o amor. Com gráficos encantadores, mecânicas profundas e a opção de jogar cooperativamente, Stardew Valley é perfeito para quem busca uma experiência imersiva e tranquila."
+      "description": "Cyberpunk 2077 é um RPG de mundo aberto ambientado na vibrante e perigosa cidade de Night City. Personalize seu personagem, explore narrativas ricas e enfrente desafios enquanto busca poder, fama e sobrevivência em um futuro distópico."
     }
   ]
 }

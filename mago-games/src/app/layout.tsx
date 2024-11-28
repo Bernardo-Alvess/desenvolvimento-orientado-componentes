@@ -3,6 +3,7 @@ import { Kadwa } from 'next/font/google';
 import './globals.css';
 import Header from './components/Header';
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
+import { Toaster } from 'sonner';
 
 const kadwa = Kadwa({
 	weight: ['400', '700'],
@@ -27,6 +28,12 @@ export default function RootLayout({
 				className={`${kadwa.variable} antialiased bg-background text-white leading-relaxed`}
 			>
 				<Header />
+				<Toaster
+					position="top-right"
+					toastOptions={{
+						unstyled: true,
+					}}
+				/>
 				{children}
 			</body>
 		</html>
