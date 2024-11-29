@@ -44,14 +44,23 @@ const ProductDetails = () => {
 					<div className="w-full col-span-3 gap-7 flex flex-col">
 						<div className="w-full bg-secondary flex flex-col justify-between gap-12 p-2 rounded-lg border border-primary">
 							<div className="flex flex-col gap-6">
-								<div className="flex gap-2">
-									<div className="bg-primary font-bold p-2 rounded-lg text-xs w-fit">
-										-{game?.discount}%
+								{game?.price == '0' ? (
+									<div className="flex gap-2">
+										<div className="bg-tertiary font-bold p-2 rounded-lg text-xs w-full text-center">
+											Gratuito
+										</div>
 									</div>
-									<div className="bg-tertiary font-bold p-2 rounded-lg text-xs w-full text-center">
-										R$ {game?.price}
+								) : (
+									<div className="flex gap-2">
+										<div className="bg-primary font-bold p-2 rounded-lg text-xs w-fit">
+											-{game?.discount}%
+										</div>
+										<div className="bg-tertiary font-bold p-2 rounded-lg text-xs w-full text-center">
+											R$ {game?.price}
+										</div>
 									</div>
-								</div>
+								)}
+
 								<div className="flex gap-2">
 									<img
 										src={'/images/steam.svg'}
@@ -103,8 +112,11 @@ const ProductDetails = () => {
 							<div className="p-4">
 								<p>CATEGORIA/GÊNERO</p>
 								<div className="flex gap-2 flex-wrap">
-									{game?.categories.map((category) => (
-										<div className="bg-tertiary p-2 rounded-lg text-xs w-fit border border-primary">
+									{game?.categories.map((category, index) => (
+										<div
+											key={index}
+											className="bg-tertiary p-2 rounded-lg text-xs w-fit border border-primary"
+										>
 											{category}
 										</div>
 									))}
@@ -113,8 +125,8 @@ const ProductDetails = () => {
 							<div className="p-4 flex flex-col gap-2">
 								<p>MODO DE JOGO</p>
 								<div className="flex flex-col gap-2 flex-wrap">
-									{game?.game_mode.map((mode) => (
-										<p>- {mode}</p>
+									{game?.game_mode.map((mode, index) => (
+										<p key={index}>- {mode}</p>
 									))}
 								</div>
 							</div>

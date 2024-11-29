@@ -1,7 +1,6 @@
 import React from 'react';
 import GameContainer from '../components/games-list/GameContainer';
 import CreateGame from '../components/CreateGameForm';
-import GamesList from '../components/GamesList';
 
 const Products = () => {
 	return (

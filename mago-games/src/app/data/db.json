@@ -23,28 +23,6 @@
       "description": "Hollow Knight: Silksong é a aguardada sequência do aclamado jogo indie Hollow Knight. No papel de Hornet, uma princesa-protetora, você embarcará em uma jornada épica para desvendar os mistérios de um reino desconhecido. Explore ambientes vastos e deslumbrantes, enfrente criaturas ferozes e use uma variedade de ferramentas e habilidades para superar desafios únicos. O jogo apresenta um mundo ricamente detalhado, novos aliados e inimigos, além de uma trilha sonora hipnotizante. Com uma narrativa envolvente e mecânicas de combate aprimoradas, Silksong promete uma experiência inesquecível para fãs de Metroidvania e novatos na série."
     },
     {
-      "id": "2",
-      "url": "https://cdn.akamai.steamstatic.com/steam/apps/570/header.jpg?t=1684503856",
-      "name": "Dota 2",
-      "price": 0,
-      "discount": 0,
-      "featured": true,
-      "embed": "SmnlfW8t9nQ",
-      "publisher": "Valve",
-      "developer": "Valve",
-      "release_date": "2013-07-09",
-      "categories": [
-        "MOBA",
-        "Estratégia",
-        "Competitivo"
-      ],
-      "game_mode": [
-        "Multijogador"
-      ],
-      "rating": "12+",
-      "description": "Dota 2 é um dos maiores e mais jogados MOBAs do mundo. Com batalhas intensas e estratégia complexa, jogadores escolhem heróis únicos para enfrentar adversários em arenas cheias de ação. Atualizações constantes e uma cena competitiva global tornam Dota 2 indispensável para fãs de estratégia e trabalho em equipe."
-    },
-    {
       "id": "3",
       "url": "https://cdn.akamai.steamstatic.com/steam/apps/271590/header.jpg?t=1684700770",
       "name": "Grand Theft Auto V",
@@ -136,29 +114,6 @@
       "description": "Cyberpunk 2077 é um RPG de mundo aberto ambientado na vibrante e perigosa cidade de Night City. Personalize seu personagem, explore narrativas ricas e enfrente desafios enquanto busca poder, fama e sobrevivência em um futuro distópico."
     },
     {
-      "id": "7",
-      "url": "https://cdn.akamai.steamstatic.com/steam/apps/1240440/header.jpg?t=1686053221",
-      "name": "Valheim",
-      "price": 80,
-      "discount": 25,
-      "featured": true,
-      "embed": "By3l3Q6LQl4",
-      "publisher": "Iron Gate Studio",
-      "developer": "Iron Gate Studio",
-      "release_date": "2021-02-02",
-      "categories": [
-        "Sobrevivência",
-        "Mundo Aberto",
-        "Cooperativo"
-      ],
-      "game_mode": [
-        "Multijogador",
-        "Cooperativo"
-      ],
-      "rating": "12+",
-      "description": "Explore um vasto mundo de mitologia nórdica em Valheim. Construa, lute e sobreviva sozinho ou com amigos em um jogo que desafia sua criatividade e estratégia."
-    },
-    {
       "id": "8",
       "url": "https://cdn.akamai.steamstatic.com/steam/apps/1174180/header.jpg?t=1686265223",
       "name": "Red Dead Redemption 2",
@@ -202,6 +157,26 @@
       ],
       "rating": "18+",
       "description": "Em God of War (2018), Kratos embarca em uma jornada emocional com seu filho Atreus em um mundo inspirado na mitologia nórdica. Explore um universo belamente construído, enfrente inimigos desafiadores e descubra uma narrativa rica sobre família, vingança e redenção."
+    },
+    {
+      "id": 20,
+      "name": "TIbia",
+      "price": "0",
+      "discount": "0",
+      "publisher": "Daniel",
+      "developer": "Danil",
+      "release_date": "1980-11-04",
+      "categories": [
+        "RPG"
+      ],
+      "game_mode": [
+        "MMO"
+      ],
+      "rating": "16",
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOjGTz0hGqoVFQZnco0lnOZwZ9YG5rZbETMA&s",
+      "embed": "OpAaLT_PTCU",
+      "description": "Um jogo muito maneiro",
+      "featured": false
     }
   ]
 }

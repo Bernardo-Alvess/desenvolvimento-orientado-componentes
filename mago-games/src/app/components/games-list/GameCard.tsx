@@ -1,6 +1,4 @@
-import useGames from '@/app/hooks/useGames';
 import Link from 'next/link';
-import { useRouter } from 'next/navigation';
 import DeleteGameModal from '../DeleteGameModal';
 import { useState } from 'react';
 

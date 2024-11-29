@@ -4,7 +4,6 @@ import React, { FormEvent, useState } from 'react';
 import { extractYouTubeVideoId } from '../common/util/extractIdFromYtVideo';
 import useGames from '../hooks/useGames';
 import { splitStringByComma } from '../common/util/splitStringByComma';
-import { create } from 'domain';
 import { toast } from 'sonner';
 import CustomToast from './CustomToast';
 

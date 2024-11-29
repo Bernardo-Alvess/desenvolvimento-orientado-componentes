@@ -1,6 +1,4 @@
 'use client'
-
-import { useState } from "react";
 import { Game } from "../types/Game.type";
 
 export default function useGames() {
